@@ -102,7 +102,7 @@
 }
 
 .priceDescription {
-  color: rgba(255, 255, 255, 0.64);
+  color: rgba(255, 255, 255, 0.594);
   margin-top: 10px;
   font-size: 20px;
   letter-spacing: 1px;
@@ -117,7 +117,7 @@
 
 .price {
   color: #fff;
-  font-size: 60px;
+  font-size: 65px;
   font-weight: 600;
   margin: 1px;
 }
@@ -135,12 +135,42 @@
   outline: none;
   cursor: pointer;
   transition: 0.3s;
+  margin: 1px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 
 .priceButton:hover {
   transform: scale(1.1);
+  transform: translateY(3px);
   box-shadow:  -0.01px 0.01px 6px #1840e4,0.01px -0.01px 6px #002cf1;
 }
+
+.learnMoreButton {
+  background: linear-gradient(225deg, #bac6ff, 
+  #f9f8ff);
+  box-shadow:  -0.01px 0.01px 6px #192e85,0.01px -0.01px 6px #192e87;
+  border-radius: 34px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 1px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.learnMoreButton:hover {
+  transform: scale(1.1);
+  transform: translateY(3px);
+  box-shadow:  -0.01px 0.01px 6px #1840e4,0.01px -0.01px 6px #002cf1;
+}
+
 
 .priceTimeUnit {
   color: rgba(255, 255, 255, 0.64);
@@ -151,3 +181,13 @@
   font-weight: bold;
 }
 
+
+
+.cardsTest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

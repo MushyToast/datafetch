@@ -1,4 +1,4 @@
-function pricingCard(title, price, description, timeunit) {
+function pricingCard(title, price, description, timeunit, buylink, learnmorelink) {
     return (
         <div className="pricingcard">
             <h2 className="priceTitle">
@@ -13,9 +13,19 @@ function pricingCard(title, price, description, timeunit) {
             <p className="priceDescription">
                 {description}
             </p>
-            <button className="priceButton">
-                Buy Now
-            </button>
+            
+            <span className="priceCardButtons">
+                <a href={buylink}> {/*change to your own link */}
+                    <button className="priceButton">
+                        Buy Now
+                    </button>
+                </a>
+                <a href={learnmorelink}> {/*change to your own link */}
+                    <button className="learnMoreButton">
+                        Learn More
+                    </button>
+                </a>
+            </span>
         </div>
     )
 }

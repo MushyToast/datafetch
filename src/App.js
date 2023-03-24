@@ -15,10 +15,10 @@ function App() {
           Some UI Elements I made (fully mobile compatible, open source)
         </p>
         <p>Github -- <a href="https://github.com/MushyToast/ui">Github</a></p>
-        {donenoti("Title", "Description")}
-        {errornoti("Title", "Description")}
-        {infonoti("Title", "Description")}
-        {pricingCard("Product Title", "Product Price", "Product Description", "month")}
+        {donenoti("title", "description")}
+        {errornoti("title", "description")}
+        {infonoti("title", "description")}
+        {pricingCard("professional edition", "$19.99", "It is very much professional", "month", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://www.youtube.com/watch?v=dQw4w9WgXcQ")}
       </header>
     </div>
   );
