@@ -18,7 +18,7 @@ function App() {
         {donenoti("Title", "Description")}
         {errornoti("Title", "Description")}
         {infonoti("Title", "Description")}
-        {pricingCard("Title", "Price", "Description")}
+        {pricingCard("Product Title", "Product Price", "Product Description", "month")}
       </header>
     </div>
   );
