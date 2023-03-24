@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 0.00001s linear;
+    animation: App-logo-spin infinite 9s linear;
   }
 }
 
@@ -72,4 +72,18 @@
 .logo {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.pricingcard {
+  border-radius: 34px;
+  background: linear-gradient(225deg, #172979, #1b318f);
+  box-shadow:  -0.01px 0.01px 6px #192e85,0.01px -0.01px 6px #192e87;
+  margin: 4px;
+  padding: 30px;
+}
+
+.priceTitle {
+  
+  margin: 1px;
+
 }

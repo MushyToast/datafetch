@@ -3,6 +3,7 @@ import './App.css';
 import donenoti from './donenoti.js';
 import errornoti from './errornoti.js';
 import infonoti from './infonoti.js';
+import pricingCard from './pricecard.js'
 
 
 function App() {
@@ -11,20 +12,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Some UI Elements I made (fully mobile compatible, open source)
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <p><code>HTML I </code></p>
+        <p>Github -- <a href="https://github.com/MushyToast/ui">Github</a></p>
         {donenoti("Title", "Description")}
         {errornoti("Title", "Description")}
         {infonoti("Title", "Description")}
+        {pricingCard("Title", "Price", "Description")}
       </header>
     </div>
   );
