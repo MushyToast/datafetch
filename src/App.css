@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+
 .App {
   text-align: center;
+}
+
+.headerText {
+  font-size: 72px;
+  background: #5500FF;
+  background: linear-gradient(to right, #5500FF 0%, #91009C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .App-logo {
@@ -190,4 +201,55 @@
   margin: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+
+
+
+
+
+.personCard {
+  border-radius: 34px;
+  background: linear-gradient(225deg, #36307f, #5159a7);
+  box-shadow:  -0.01px 0.01px 6px #192e85,0.01px -0.01px 6px #192e87;
+  margin: 10px;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.personCardImg {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.personName {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Signika;
+  margin: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.personDesc {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: Signika;
+  margin: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.titleText {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
 }
